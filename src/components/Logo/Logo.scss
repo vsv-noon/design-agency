@@ -1,0 +1,14 @@
+@use "./../../styles/functions" as func;
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  gap: func.rem-calc(14);
+  font-family: 'Epilogue';
+  font-style: normal;
+  color: #fff;
+  font-weight: 700;
+  font-size: func.rem-calc(24);
+  // line-height: func.rem-calc(32);
+  text-decoration: none;
+}

@@ -1,0 +1,41 @@
+@use './../../styles/functions' as func;
+
+.header {
+  margin: 0 auto;
+  max-width: func.rem-calc(1440);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: func.rem-calc(16) func.rem-calc(135);
+  background-color: var(--background-color-header);
+
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav-links {
+      display: flex;
+      list-style: none;
+      gap: func.rem-calc(105);
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: func.rem-calc(16);
+        // line-height: func.rem-calc(32);
+      }
+    }
+
+    .button {
+      width: func.rem-calc(138);
+      height: func.rem-calc(48);
+    }
+
+  }
+}
