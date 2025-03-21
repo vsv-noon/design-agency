@@ -22,7 +22,7 @@
       gap: func.rem-calc(105);
 
       a {
-        color: #fff;
+        color: var(--text-light);
         text-decoration: none;
         font-family: 'Epilogue';
         font-style: normal;

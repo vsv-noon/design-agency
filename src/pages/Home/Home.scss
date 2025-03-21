@@ -1,0 +1,6 @@
+@use './../../styles/functions' as func;
+
+.main {
+  margin: 0 auto;
+  max-width: func.rem-calc(1440);
+}

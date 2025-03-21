@@ -1,0 +1,45 @@
+@use './functions' as func;
+
+.h1 {  
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 800;
+  font-size: func.rem-calc(72);
+  line-height: func.rem-calc(80);
+  /* or 111% */
+  letter-spacing: func.rem-calc(-2);
+
+  color: var(--text-light);
+}
+
+.h5 {  
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: func.rem-calc(16);
+  line-height: func.rem-calc(32);
+  letter-spacing: func.rem-calc(3);
+  text-transform: uppercase;
+  color: var(--text-light-accent);
+}
+
+.p,
+.p-white {  
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: func.rem-calc(16);  
+  /* or 200% */
+
+ 
+}
+
+.p {
+  line-height: func.rem-calc(32);
+  color: var(--text-light-grey);
+}
+
+.p-white {
+  color: var(--text-light);
+  line-height: func.rem-calc(1);
+}

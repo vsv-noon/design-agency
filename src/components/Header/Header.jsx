@@ -9,12 +9,12 @@ const Header = () => {
   return (
     <header className='header'>
       <nav className='navbar'>
-      <Logo />
+        <Logo />
         <ul className='nav-links'>
-          <li><NavLink>About</NavLink></li>
-          <li><NavLink>Services</NavLink></li>
-          <li><NavLink>Pricing</NavLink></li>
-          <li><NavLink>Blog</NavLink></li>
+          <li><NavLink to="/about">About</NavLink></li>
+          <li><NavLink to="/services">Services</NavLink></li>
+          <li><NavLink to="/pricing">Pricing</NavLink></li>
+          <li><NavLink to="/blog">Blog</NavLink></li>
         </ul>
         <Button text="Contact"/>
       </nav>
