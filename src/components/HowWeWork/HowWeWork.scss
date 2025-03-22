@@ -1,0 +1,71 @@
+@use './../../styles/functions' as func;
+
+#how-we-work {
+  padding: 0 func.rem-calc(135);
+  background-color: var(--bg-color-light);
+
+  .p {
+    color: var(--text-dark-grey);
+  }
+
+  .p-read-more {
+    color: var(--text-dark);
+  }
+
+  .container {
+    display: flex;
+    gap: func.rem-calc(140);
+    border-bottom: func.rem-calc(1) solid var(--border-light);
+
+    .left-column {
+      width: 41%;
+
+      .h5 {
+        margin-bottom: func.rem-calc(20);
+      }
+
+      .h3 {
+        margin-bottom: func.rem-calc(30);
+      }
+
+      .p:last-child {
+        margin-top: func.rem-calc(30);
+      }
+    }
+
+    .right-column {
+      width: 51%;
+      padding-top: func.rem-calc(70);
+      padding-bottom: func.rem-calc(108);
+      display: flex;
+      flex-direction: column;
+      gap: func.rem-calc(32);
+
+      .p span {
+        width: func.rem-calc(46);
+        font-weight: 800;
+        font-size: func.rem-calc(72);
+        line-height: func.rem-calc(80);
+        /* identical to box height, or 111% */
+        letter-spacing: func.rem-calc(-2);
+
+        color: var(--text-dark);
+      }
+
+      .p {
+        display: flex;
+        text-align: left;
+        justify-content: start;
+        align-items: center;
+        gap: func.rem-calc(55);
+        font-weight: 700;
+        font-size: func.rem-calc(24);
+        // line-height: func.rem-calc(32);
+        /* identical to box height, or 133% */
+
+        /* Text_Dark */
+        color: var(--text-dark);
+      }
+    }
+  }
+}
