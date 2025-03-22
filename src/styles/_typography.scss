@@ -8,8 +8,32 @@
   line-height: func.rem-calc(80);
   /* or 111% */
   letter-spacing: func.rem-calc(-2);
-
   color: var(--text-light);
+}
+
+.h2 {
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 800;
+font-size: func.rem-calc(56);
+line-height: func.rem-calc(64);
+/* or 114% */
+letter-spacing: func.rem-calc(-1);
+color: var(--text-dark);
+}
+
+.h3 {
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+
+
+color: var(--text-dark);
+
+
 }
 
 .h5 {  
@@ -29,9 +53,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: func.rem-calc(16);  
-  /* or 200% */
-
- 
+  /* or 200% */ 
 }
 
 .p {
@@ -42,4 +64,18 @@
 .p-white {
   color: var(--text-light);
   line-height: func.rem-calc(1);
+}
+
+.p-text-big {
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: func.rem-calc(20);
+line-height: func.rem-calc(32);
+/* identical to box height, or 160% */
+
+/* Text_Dark */
+color: var(--text-dark);
+
+
 }

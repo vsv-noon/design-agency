@@ -7,7 +7,7 @@ import heroPic from './../../assets/images/hero-pic.png';
 
 const Hero = () => {
   return (
-    <section ide="hero">
+    <section id="hero">
       <div className="left-column">
         <h5 className="h5">Modern Studio</h5>
         <h1 className="h1">

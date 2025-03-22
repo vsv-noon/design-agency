@@ -2,7 +2,7 @@
 
 #hero {
   display: flex;
-  background-color: var(--background-color-header);
+  background-color: var(--bg-color-dark);
   padding: 0 func.rem-calc(135);
 
   .left-column {
@@ -33,7 +33,6 @@
     }
 
     .button:first-child {
-
       background: var(--text-light-accent);
     }
 
@@ -56,7 +55,7 @@
       display: flex;
       align-items: center;
       gap: func.rem-calc(22);
-      padding-bottom: func.rem-calc(56);
+      padding-bottom: func.rem-calc(67);
 
       img {
         height: func.rem-calc(48);
